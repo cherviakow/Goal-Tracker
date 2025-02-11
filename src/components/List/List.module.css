@@ -1,0 +1,23 @@
+.form{
+    margin-top: 30px;
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact{
+    margin-top: 10px;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 10px;
+}
