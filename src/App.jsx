@@ -15,6 +15,7 @@ function App() {
   { id: "id-4", name: "Annie Copeland", plan: "227-91-26" },
   ]);
   
+  
   const addGoal = (newGoal) => {
     setGoal((prevGoal) => [...prevGoal, newGoal]);
   } 
