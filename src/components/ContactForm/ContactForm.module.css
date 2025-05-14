@@ -1,12 +1,13 @@
 .form{
-    border: 2px solid black;
+    border: 2px solid rgb(135, 134, 134);
     width: 400px;
     height: 200px;
+    margin-top: 10px;
     text-align: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    
+    border-radius: 7px;
 }
 .inputName{
     width: 300px;

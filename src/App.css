@@ -1,4 +1,22 @@
+*{
+margin: 0;
+padding: 0;
+}
+.tracker{
+  background-color: rgb(41, 40, 40);
+  min-height: 100vh;
+  color: rgba(255, 128, 0, 0.705);
+}
+.mainContainer{
+  display: grid;
+  position: sticky;
+ 
+}
+.main{
+  display: flex;
 
+
+}
 
 
 
