@@ -9,7 +9,8 @@ padding: 0;
 }
 .mainContainer{
   display: grid;
-  position: sticky;
+
+  flex-direction: column;
  
 }
 .main{
@@ -18,6 +19,12 @@ padding: 0;
 
 }
 
+@media (max-width: 1500px) {
+  .main {
+    flex-direction: column;
+  }
+
+}
 
 
 /* #root {

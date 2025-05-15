@@ -47,12 +47,12 @@ return (
         <div
           className={css.contact}
           key={id}
-          style={{ borderColor: isDone ? "lightgreen" : "black" }}
+          style={{ borderColor: isDone ? "lightgreen" : "rgb(135, 134, 134)" }}
         >
           {name} - {plan}
           <div className={css.buttons}>
-            <button onClick={() => handleDone(id)}>Done</button>
-            <button onClick={() => deleteGoal(id)}>Delete</button>
+            <button className={css.Btn} onClick={() => handleDone(id)}>Done</button>
+            <button className={css.Btn} onClick={() => deleteGoal(id)}>Delete</button>
           </div>
         </div>
       );
