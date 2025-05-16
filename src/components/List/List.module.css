@@ -3,21 +3,19 @@
     width: 1100px;
     display: flex;
     flex-wrap: wrap;
-   
-
-    
 }
 
 .contact{
     width: 300px;
     height: 65px;
     margin-top: 10px;
-    border: 2px solid rgb(135, 134, 134);
+    border: 2px solid black;
     margin-left: 10px;
     padding: 10px;
     border-radius: 7px;
     flex-direction: column;
-    
+    background-color: aliceblue;
+    color: black;  
 }
 
 .buttons{
@@ -28,8 +26,15 @@
     margin-right: 3px;
 }
 
-.Btn{
-    background-color: rgba(255, 128, 0, 0.705);
+.BtnDone{
+    background-color: rgba(82, 186, 90, 0.705);
+    width: 70px;
+    height: 25px;
+    border-radius: 8px;
+    color: aliceblue;
+}
+.BtnDelete{
+    background-color: rgba(173, 23, 28, 0.705);;
     width: 70px;
     height: 25px;
     border-radius: 8px;

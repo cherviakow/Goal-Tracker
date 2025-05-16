@@ -3,10 +3,8 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import { nanoid } from "nanoid";
 import * as Yup from "yup";
 import css from "../ContactForm/ContactForm.module.css";
-// import { useState } from "react";
 
 export default function ContactForm({ onAddGoal }) {
-
   const id = nanoid();
 
   const contactSchema = Yup.object().shape({
