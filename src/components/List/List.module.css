@@ -42,4 +42,34 @@
       max-width: 100%;
       margin-left: 20px;
     }
+    .contact{
+        flex-direction: column;
+    }
+}
+@media (max-width: 1200px) {
+    .form {
+      padding: 12px;
+      max-width: 100%;
+      margin-left: 7px;
+      width: 500px;
+    }
+    .contact{
+        flex-wrap: wrap;
+        width: 380px;
+       
+    }
+}
+
+@media (max-width: 1500px) {
+    .form {
+      padding: 12px;
+    
+      margin-left: 7px;
+    
+    }
+    .contact{
+       flex-wrap: wrap;
+        width: 380px;
+       
+    }
 }

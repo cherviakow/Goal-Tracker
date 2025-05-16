@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import Contact from "../Contact/Contact";
+// import Contact from "../Contact/Contact";
 import css from "./List.module.css";
 
 export default function List({ contacts, deleteGoal, doneGoal }) {
@@ -38,7 +38,7 @@ export default function List({ contacts, deleteGoal, doneGoal }) {
 
 return (
   <div className={css.form}>
-    <Contact />
+    {/* <Contact /> */}
 
     {contacts.map(({ id, name, plan }) => {
       const isDone = doneId.includes(id);
